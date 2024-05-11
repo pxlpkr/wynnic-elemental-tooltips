@@ -1,0 +1,352 @@
+{
+	"definitions": [
+		{ // Multi Element
+			"index": 6,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "3_dark_green-v160_yellow-v160_red-v160_white-v160_aqua-v160",
+			"endColor": "3_dark_green-v160_yellow-v160_red-v160_white-v160_aqua-v160",
+			"bgStartColor": "3_dark_green-a11-v200_yellow-a11-v200__red-a11-v200__white-a11-v200_aqua-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_multi=1b",
+				// Accessories
+				"flint_and_steel+&Damage=13", "flint_and_steel+&Damage=14", "flint_and_steel+&Damage=30",
+				"flint_and_steel+&Damage=31", "flint_and_steel+&Damage=47", "flint_and_steel+&Damage=48",
+				// Powder
+				"paper+%Water Powder",
+				// Bow
+				"bow+&Damage=17", "bow+&Damage=18", "bow+&Damage=19",
+				// Spear
+				"iron_shovel+&Damage=17", "iron_shovel+&Damage=18", "iron_shovel+&Damage=19",
+				// Dagger
+				"shears+&Damage=17", "shears+&Damage=18", "shears+&Damage=19",
+				// Wand
+				"wooden_shovel+&Damage=17", "wooden_shovel+&Damage=18", "wooden_shovel+&Damage=10",
+				// Relik
+				"stone_shovel+&Damage=24", "stone_shovel+&Damage=25", "stone_shovel+&Damage=26",
+				// Armor
+				"leather_helmet+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "leather_chestplate+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "leather_leggings+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "leather_boots+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min",
+				"golden_helmet+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "golden_chestplate+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "golden_leggings+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "golden_boots+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min",
+				"chainmail_helmet+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "chainmail_chestplate+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "chainmail_leggings+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "chainmail_boots+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min",
+				"iron_helmet+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "iron_chestplate+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "iron_leggings+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "iron_boots+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min",
+				"diamond_helmet+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "diamond_chestplate+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "diamond_leggings+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min", "diamond_boots+^Strength Min+^Agility Min+^Defence Min+^Intelligence Min+^Dexterity Min"
+			]
+		},
+		{ // Earth Element
+			"index": 3,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "dark_green-v160", "endColor": "dark_green-v160",
+			"bgStartColor": "dark_green-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_earth=1b",
+				// Accessories
+				"flint_and_steel+&Damage=3", "flint_and_steel+&Damage=4", "flint_and_steel+&Damage=20",
+				"flint_and_steel+&Damage=21", "flint_and_steel+&Damage=37", "flint_and_steel+&Damage=38",
+				// Powder
+				"paper+%Earth Powder",
+				// Bow
+				"bow+&Damage=2", "bow+&Damage=3", "bow+&Damage=4",
+				// Spear
+				"iron_shovel+&Damage=2", "iron_shovel+&Damage=3", "iron_shovel+&Damage=4",
+				// Dagger
+				"shears+&Damage=2", "shears+&Damage=3", "shears+&Damage=4",
+				// Wand
+				"wooden_shovel+&Damage=2", "wooden_shovel+&Damage=3", "wooden_shovel+&Damage=4",
+				// Relik
+				"stone_shovel+&Damage=9", "stone_shovel+&Damage=10", "stone_shovel+&Damage=11",
+				// Skill book
+				"golden_axe+&Damage=4",
+				// Armor
+				"leather_helmet+^Strength Min", "leather_chestplate+^Strength Min", "leather_leggings+^Strength Min", "leather_boots+^Strength Min",
+				"golden_helmet+^Strength Min", "golden_chestplate+^Strength Min", "golden_leggings+^Strength Min", "golden_boots+^Strength Min",
+				"chainmail_helmet+^Strength Min", "chainmail_chestplate+^Strength Min", "chainmail_leggings+^Strength Min", "chainmail_boots+^Strength Min",
+				"iron_helmet+^Strength Min", "iron_chestplate+^Strength Min", "iron_leggings+^Strength Min", "iron_boots+^Strength Min",
+				"diamond_helmet+^Strength Min", "diamond_chestplate+^Strength Min", "diamond_leggings+^Strength Min", "diamond_boots+^Strength Min"
+			]
+		},
+		{ // Thunder Element
+			"index": 2,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "yellow-v160", "endColor": "yellow-v160",
+			"bgStartColor": "yellow-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_thunder=1b",
+				// Accessories
+				"flint_and_steel+&Damage=5", "flint_and_steel+&Damage=6", "flint_and_steel+&Damage=22",
+				"flint_and_steel+&Damage=23", "flint_and_steel+&Damage=39", "flint_and_steel+&Damage=40",
+				// Powder
+				"paper+%Thunder Powder",
+				// Bow
+				"bow+&Damage=5", "bow+&Damage=6", "bow+&Damage=7",
+				// Spear
+				"iron_shovel+&Damage=5", "iron_shovel+&Damage=6", "iron_shovel+&Damage=7",
+				// Dagger
+				"shears+&Damage=5", "shears+&Damage=6", "shears+&Damage=7",
+				// Wand
+				"wooden_shovel+&Damage=5", "wooden_shovel+&Damage=6", "wooden_shovel+&Damage=7",
+				// Relik
+				"stone_shovel+&Damage=12", "stone_shovel+&Damage=13", "stone_shovel+&Damage=14",
+				// Skill book
+				"golden_axe+&Damage=5",
+				// Armor
+				"leather_helmet+^Dexterity Min", "leather_chestplate+^Dexterity Min", "leather_leggings+^Dexterity Min", "leather_boots+^Dexterity Min",
+				"golden_helmet+^Dexterity Min", "golden_chestplate+^Dexterity Min", "golden_leggings+^Dexterity Min", "golden_boots+^Dexterity Min",
+				"chainmail_helmet+^Dexterity Min", "chainmail_chestplate+^Dexterity Min", "chainmail_leggings+^Dexterity Min", "chainmail_boots+^Dexterity Min",
+				"iron_helmet+^Dexterity Min", "iron_chestplate+^Dexterity Min", "iron_leggings+^Dexterity Min", "iron_boots+^Dexterity Min",
+				"diamond_helmet+^Dexterity Min", "diamond_chestplate+^Dexterity Min", "diamond_leggings+^Dexterity Min", "diamond_boots+^Dexterity Min"
+			]
+		},
+		{ // Fire Element
+			"index": 1,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "red-v160", "endColor": "red-v160",
+			"bgStartColor": "red-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_fire=1b",
+				// Accessories
+				"flint_and_steel+&Damage=7", "flint_and_steel+&Damage=8", "flint_and_steel+&Damage=24",
+				"flint_and_steel+&Damage=25", "flint_and_steel+&Damage=41", "flint_and_steel+&Damage=42",
+				// Powder
+				"paper+%Fire Powder",
+				// Bow
+				"bow+&Damage=8", "bow+&Damage=9", "bow+&Damage=10",
+				// Spear
+				"iron_shovel+&Damage=8", "iron_shovel+&Damage=9", "iron_shovel+&Damage=10",
+				// Dagger
+				"shears+&Damage=8", "shears+&Damage=9", "shears+&Damage=10",
+				// Wand
+				"wooden_shovel+&Damage=8", "wooden_shovel+&Damage=9", "wooden_shovel+&Damage=10",
+				// Relik
+				"stone_shovel+&Damage=15", "stone_shovel+&Damage=16", "stone_shovel+&Damage=17",
+				// Skill book
+				"golden_axe+&Damage=7",
+				// Armor
+				"leather_helmet+^Defence Min", "leather_chestplate+^Defence Min", "leather_leggings+^Defence Min", "leather_boots+^Defence Min",
+				"golden_helmet+^Defence Min", "golden_chestplate+^Defence Min", "golden_leggings+^Defence Min", "golden_boots+^Defence Min",
+				"chainmail_helmet+^Defence Min", "chainmail_chestplate+^Defence Min", "chainmail_leggings+^Defence Min", "chainmail_boots+^Defence Min",
+				"iron_helmet+^Defence Min", "iron_chestplate+^Defence Min", "iron_leggings+^Defence Min", "iron_boots+^Defence Min",
+				"diamond_helmet+^Defence Min", "diamond_chestplate+^Defence Min", "diamond_leggings+^Defence Min", "diamond_boots+^Defence Min"
+			]
+		},
+		{ // Air Element
+			"index": 4,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "white-v160", "endColor": "white-v160",
+			"bgStartColor": "white-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_air=1b",
+				// Accessories
+				"flint_and_steel+&Damage=9", "flint_and_steel+&Damage=10", "flint_and_steel+&Damage=26",
+				"flint_and_steel+&Damage=27", "flint_and_steel+&Damage=43", "flint_and_steel+&Damage=44",
+				// Powder
+				"paper+%Air Powder",
+				// Bow
+				"bow+&Damage=11", "bow+&Damage=12", "bow+&Damage=13",
+				// Spear
+				"iron_shovel+&Damage=11", "iron_shovel+&Damage=12", "iron_shovel+&Damage=13",
+				// Dagger
+				"shears+&Damage=11", "shears+&Damage=12", "shears+&Damage=13",
+				// Wand
+				"wooden_shovel+&Damage=11", "wooden_shovel+&Damage=12", "wooden_shovel+&Damage=13",
+				// Relik
+				"stone_shovel+&Damage=18", "stone_shovel+&Damage=19", "stone_shovel+&Damage=20",
+				// Skill book
+				"golden_axe+&Damage=8",
+				// Armor
+				"leather_helmet+^Agility Min", "leather_chestplate+^Agility Min", "leather_leggings+^Agility Min", "leather_boots+^Agility Min",
+				"golden_helmet+^Agility Min", "golden_chestplate+^Agility Min", "golden_leggings+^Agility Min", "golden_boots+^Agility Min",
+				"chainmail_helmet+^Agility Min", "chainmail_chestplate+^Agility Min", "chainmail_leggings+^Agility Min", "chainmail_boots+^Agility Min",
+				"iron_helmet+^Agility Min", "iron_chestplate+^Agility Min", "iron_leggings+^Agility Min", "iron_boots+^Agility Min",
+				"diamond_helmet+^Agility Min", "diamond_chestplate+^Agility Min", "diamond_leggings+^Agility Min", "diamond_boots+^Agility Min"
+			]
+		},
+		{ // Water Element
+			"index": 0,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "aqua-v160", "endColor": "aqua-v160",
+			"bgStartColor": "aqua-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_water=1b",
+				// Accessories
+				"flint_and_steel+&Damage=11", "flint_and_steel+&Damage=12", "flint_and_steel+&Damage=28",
+				"flint_and_steel+&Damage=29", "flint_and_steel+&Damage=45", "flint_and_steel+&Damage=46",
+				// Powder
+				"paper+%Water Powder",
+				// Bow
+				"bow+&Damage=14", "bow+&Damage=15", "bow+&Damage=16",
+				// Spear
+				"iron_shovel+&Damage=14", "iron_shovel+&Damage=15", "iron_shovel+&Damage=16",
+				// Dagger
+				"shears+&Damage=14", "shears+&Damage=15", "shears+&Damage=16",
+				// Wand
+				"wooden_shovel+&Damage=14", "wooden_shovel+&Damage=15", "wooden_shovel+&Damage=16",
+				// Relik
+				"stone_shovel+&Damage=21", "stone_shovel+&Damage=22", "stone_shovel+&Damage=23",
+				// Skill book
+				"golden_axe+&Damage=6",
+				// Armor
+				"leather_helmet+^Intelligence Min", "leather_chestplate+^Intelligence Min", "leather_leggings+^Intelligence Min", "leather_boots+^Intelligence Min",
+				"golden_helmet+^Intelligence Min", "golden_chestplate+^Intelligence Min", "golden_leggings+^Intelligence Min", "golden_boots+^Intelligence Min",
+				"chainmail_helmet+^Intelligence Min", "chainmail_chestplate+^Intelligence Min", "chainmail_leggings+^Intelligence Min", "chainmail_boots+^Intelligence Min",
+				"iron_helmet+^Intelligence Min", "iron_chestplate+^Intelligence Min", "iron_leggings+^Intelligence Min", "iron_boots+^Intelligence Min",
+				"diamond_helmet+^Intelligence Min", "diamond_chestplate+^Intelligence Min", "diamond_leggings+^Intelligence Min", "diamond_boots+^Intelligence Min"
+			]
+		},
+		{ // Neutral Element
+			"index": 5,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "gold-v160", "endColor": "gold-v160",
+			"bgStartColor": "gold-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_neutral=1b",
+				// Accessories
+				"flint_and_steel+&Damage=1", "flint_and_steel+&Damage=2", "flint_and_steel+&Damage=18",
+				"flint_and_steel+&Damage=19", "flint_and_steel+&Damage=35", "flint_and_steel+&Damage=36",
+				// Powder
+				"gunpowder+%Blank Powder",
+				// Bow
+				"bow",
+				// Spear
+				"iron_shovel",
+				// Dagger
+				"shears",
+				// Wand
+				"wooden_shovel",
+				// Relik
+				"stone_shovel+~&Damage=1+~&Damage=2+~&Damage=3+~&Damage=4+~&Damage=5+~&Damage=6",
+				// Armor
+				"leather_helmet", "leather_chestplate", "leather_leggings", "leather_boots",
+				"golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots",
+				"chainmail_helmet", "chainmail_chestplate", "chainmail_leggings", "chainmail_boots",
+				"iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots",
+				"diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots"
+			]
+		},
+		{ // Special Case
+			"index": 7,
+			"image": "legendarytooltips:textures/gui/elemental.png",
+			"startColor": "10_gray_white", "endColor": "10_gray_white",
+			"bgStartColor": "gray-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				// Debug
+				"&c_wtp_special=1b",
+				// Accessories
+				"flint_and_steel+&Damage=15", "flint_and_steel+&Damage=16", "flint_and_steel+&Damage=17",
+				"flint_and_steel+&Damage=32", "flint_and_steel+&Damage=33", "flint_and_steel+&Damage=34"
+			]
+		},
+		{ // Emerald
+			"index": 0,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "green-v160", "endColor": "green-v160",
+			"bgStartColor": "green-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_eee=1b",
+				"emerald",
+				// Pouches
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier I]", "diamond_axe+%Emerald Pouch\u00a72 [Tier II]",
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier III]", "diamond_axe+%Emerald Pouch\u00a72 [Tier IV]"
+			]
+		},
+		{ // Emerald Block
+			"index": 1,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "green-v160", "endColor": "green-v160",
+			"bgStartColor": "green-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_eeb=1b",
+				"emerald_block",
+				// Pouches
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier V]", "diamond_axe+%Emerald Pouch\u00a72 [Tier VI]",
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier VII]"
+			]
+		},
+		{ // Liquid Emerald
+			"index": 2,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "green-v160", "endColor": "green-v160",
+			"bgStartColor": "green-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_ele=1b",
+				"experience_bottle",
+				// Pouches
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier VIII]", "diamond_axe+%Emerald Pouch\u00a72 [Tier IX]",
+				"diamond_axe+%Emerald Pouch\u00a72 [Tier X]",
+				// Skins
+				"diamond_horse_armor", "diamond_pickaxe", "diamond_shovel", "golden_horse_armor", "iron_horse_armor"
+			]
+		},
+		{ // Ingredient T0
+			"index": 3,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "white-v160", "endColor": "white-v160",
+			"bgStartColor": "white-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it0=1b",
+				// Ingredient
+				"%[\u00a78\u272b\u272b\u272b\u00a77]"
+			]
+		},
+		{ // Ingredient T1
+			"index": 4,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "yellow-v160", "endColor": "yellow-v160",
+			"bgStartColor": "yellow-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it1=1b",
+				// Ingredient
+				"%[\u00a7e\u272b\u00a78\u272b\u272b\u00a76]"
+			]
+		},
+		{ // Ingredient T2
+			"index": 5,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "magenta-v160", "endColor": "magenta-v160",
+			"bgStartColor": "magenta-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it2=1b",
+				// Ingredient
+				"%[\u00a7d\u272b\u272b\u00a78\u272b\u00a75]"
+			]
+		},
+		{ // Ingredient T3
+			"index": 6,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "aqua-v160", "endColor": "aqua-v160",
+			"bgStartColor": "aqua-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it3=1b",
+				// Ingredient
+				"%[\u00a7b\u272b\u272b\u272b\u00a73]"
+			]
+		},
+		{ // Material T2
+			"index": 4,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "gold-v160", "endColor": "gold-v160",
+			"bgStartColor": "gold-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it3=1b",
+				// Ingredient
+				"%[\u00a7e\u272b\u272b\u00a78\u272b\u00a76]"
+			]
+		},
+		{ // Material T3
+			"index": 4,
+			"image": "legendarytooltips:textures/gui/economy.png",
+			"startColor": "red-v160", "endColor": "red-v160",
+			"bgStartColor": "red-a11-v200", "bgEndColor": "black-a11",
+			"selectors": [
+				"&c_wtp_it3=1b",
+				// Ingredient
+				"%[\u00a7e\u272b\u272b\u272b\u00a76]"
+			]
+		}
+	]
+}
